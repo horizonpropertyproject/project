@@ -310,16 +310,4 @@ res.send("Thank You " +req.body.name+ "!!!");
  
 });
 
-
-
-
-
-
-
-
-
-
-
-app.listen(8080,function(){
-console.log('Server running at 192.168.0.11:8080');	
-});
+app.listen(80);
